@@ -236,10 +236,39 @@ border: 1px solid rgba(41, 206, 246, 0.20);
 .c{
     border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
+max-width: 590px;
+margin: auto;
 }
 .padding-common{
     padding: 25px;
     border-radius: 10px;
+}
+.form-box{
+    padding: 30px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.form-box input[type=text] ,
+.form-box input[type="email" i] {
+    height: 55px;
+    border-width: 1px;
+    border-color: #eee;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 20px;
+    text-align: left;
+    background-color: #eee;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.form-box input[type=button]{
+    width: 100%;
+}
+.last-form{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 30px;
 }
 @media screen and (max-width: 600px){
     .menu {
